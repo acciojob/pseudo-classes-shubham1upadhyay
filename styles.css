@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+ :root {
+        background-color: skyblue;
+      }
+      p:first-child {
+        background-color: black;
+        color: white;
+      }
+      p:nth-child(4) {
+        color: red;
+      }
+      li:nth-child(1) {
+        background-color: white;
+		  padding:10px;
+      }
+      li:nth-child(2) {
+        background-color: lightgray;
+		  padding:10px;
+      }
+      li:nth-child(3) {
+        background-color: pink;
+		  padding:10px;
+      }
+li:nth-child(4) {
+        background-color: lightgray;
+	padding:10px;
+      }
+li:nth-child(5) {
+        background-color: white;
+	padding:10px;
+      }
